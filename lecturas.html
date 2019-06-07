@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta content="Oscar Blanco" name="Autor">
+	<meta content="unad, seguridad, informatica," name="keywords">
+	<title>Lecturas</title>
+	<link rel="stylesheet" type="text/css" href="css/lecturas.css">
+</head>
+<body>
+<header class="header2">
+<section class="encima">
+	<div id=logos>
+	<h1><img src="img/logo_unad.png" width="315px"></h1>
+	</div>
+	<div id=ovis>
+	<p>SEGURIDAD INFORMATICA</p>
+	</div>
+	
+</header>	
+<p id="titulo">LECTURAS</p>
+
+<nav>
+<li><a href="index.html" class="nave">Inicio</a></li>
+<li><a href="lecturas.html" class="nave">Introduccion</a></li>
+<li><a href="vulnerabilidades.html" class="nave">Vulnerabilidades</a></li>
+<li><a href="amenazas.html" class="nave">Amenazas</a></li>
+<li><a href="tipos de ataques.html" class="nave">Tipos de ataques</a></li>
+<li><a href="riesgos.html" class="nave">Riesgos</a></li>
+</nav>
+</section>
+<img src="">
+
+<section id="estructura">	
+
+<section id="contenedor">
+
+	<p class="titulo2">INTRODUCCION A LA SEGURIDAD INFORMATICA</p>
+
+	<p class="textos">	
+		No existen sistemas completamente seguros. El objetivo es conseguir un sistema suficientemente seguro teniendo en cuenta las necesidades específicas de cada caso.
+		La seguridad es un proceso continuo que requiere participación universal, y se hace estrictamente necesario tener claro algunas ideas clave sobre la seguridad de los sistemas informáticos. De forma resumida, las más importantes son:
+
+	<p class="subtitulos"> DEFINICION DE SEGURIDAD INFORMATICA</p>
+	<p class="textos">
+		Una buena definición sería: "A computer is secure if you can depend on it and its software to behave as you expect.", definición tomada del libro "Practical UNIX and Internet Security", de Simson Garfinkel, Gene Spafford y Alan Schwartz. Traduciéndola más o menos literalmente, vendría a decir que podemos afirmar que un ordenador es seguro si podemos depender de que se comporte como esperamos.
+
+		Esta definición incluye dos aspectos básicos. Por una parte, introduce la necesidad de poder depender de los sistemas informáticos. Y, por otra, la noción del comportamiento esperado, que tiene dos aspectos complementarios:
+
+		Lo que esperamos que haga el sistema. Por ejemplo, servir  páginas web, permitir acceso remoto al administrador.
+		Lo que esperamos que no haga. Por ejemplo, incluir código malicioso en las páginas que sirve, permitir acceso remoto a usuarios no autorizados.
+
+	</p>
+	
+	<p class="subtitulos"> NO EXISTEN SISTEMAS SEGUROS AL 100% </p>
+	<p class="textos">	
+
+		Efectivamente, no existen sistemas completamente seguros. Todos los sistemas informáticos pueden ser comprometidos o, dicho de otro modo, cualquier sistema informático puede acabar comportándose de forma diferente a como de él se espera.
+
+		Existen diferentes motivos por los que se puede producir este comportamiento anómalo. Por supuesto, puede haber fallos no intencionados del soporte físico, o hardware; del soporte lógico, o software; o de los propios usuarios). Los fallos pueden ser causados también por las condiciones del entorno: temperatura excesiva, polvo en el ambiente, vibraciones... Así mismo, pueden ocurrir accidentes naturales (incendios, inundaciones...). 
+
+		Pero lo que es necesario tener presente es que un atacante, si tiene suficientes conocimientos y dispone los recursos que necesita, con el tiempo adecuado siempre logrará tener éxito. Por lo tanto, hay que tener en cuenta que el objetivo del profesional de seguridad no puede ser garantizar una seguridad 100%, sino ayudar a alcanzar y mantener un nivel de seguridad adecuado.		
+	<p class="subtitulos"> NECESIDAD DE UN COMPROMISO</p>
+	<p class="textos">	
+
+		Puesto que no existe la seguridad absoluta, el objetivo debe ser garantizar una seguridad adecuada, buscando un compromiso entre el coste de las medidas de seguridad y los beneficios derivados de aumentar la seguridad del sistema.
+	<p class="subtitulos"> LA SEGURIDAD ES UN PROCESO</p>
+	<p class="textos">
+	
+		La única manera de conseguir mantener un cierto nivel de seguridad es mantener una actividad constante que incluya tres facetas complementarias: la prevención, la detección y la reacción. Sin este proceso continuo, las medidas de prevención irán siendo menos efectivas a medida que se descubran nuevos errores y/o vías de ataque. Pero, además, sin un proceso continuo de detección y reacción, las medidas preventivas resultarán poco eficaces, ya que el atacante tendrá tiempo de irlas descubriendo y evitando una a una.
+	<p class="subtitulos">ES NECESARIA LA PARTICIPACION UNIVERSAL</p>
+	<p class="textos">
+
+		Todas las personas de la empresa u organización deben ser conscientes de la importancia que sus acciones tienen para la seguridad del sistema. Lógicamente, los administradores suelen estar especialmente concienciados de que una configuración incorrecta puede permitir que el sistema sea comprometido. Pero igualmente importante es que los usuarios sepan que al hacer clic sobre un adjunto pueden estar permitiendo la entrada de programas maliciosos (malware) en su sistema, o que al contestar a un desconocido por teléfono pueden estar dándoles la información que necesitan para progresar en su ataque.
+	
+		<br>
+		Con la constante evolución de las computadoras es fundamental saber que recursos necesitar para obtener seguridad en los sistemas de información.
+		En el presente informe hablaremos sobre la importancia de seguridad informática, haremos referencias sobre a las formas que existen para proteger los sistemas informáticos y la información que contienen sobre accesos no autorizados, daños, modificaciones o destrucciones.
+	
+	<p class="subtitulos"> REQUISITOS DE SEGURIDAD INFORMATICA </p>
+	<p class="textos">
+		
+		La palabra seguridad, incluso cuando se refiere a sistemas informáticos, puede tener implicaciones muy diferentes en función del contexto. Por eso, antes de avanzar en el curso resulta conveniente conocer los diferentes requisitos relacionados con la seguridad que se exigen a los sistemas informáticos.
+
+		Los requisitos tradicionales de la seguridad son: secreto o confidencialidad, integridad y disponibilidad. No obstante, también es necesario conocer otros requisitos como la autenticación, el no repudio, la auditabilidad o la privacidad..<br>
+		
+	<p class="subtitulos"> SECRETO DE CONFIDENCIALIDAD </p>
+	<p class="textos">
+		
+		Consiste en evitar el acceso a la información a personas no autorizadas. Supone, lógicamente, que las personas sin autorización no puedan leer un documento, un correo electrónico o cualquier otro tipo de datos: patentes industriales, secretos de estado, registros médicos... Pero también supone evitar que se pueda saber incluso que la información existe. Por ejemplo, el simple hecho de saber que existen registros médicos (o su número, o su frecuencia, o sus fechas) de una persona, permite inferir información que puede ser sensible.
+
+	<p class="subtitulos"> INTEGRIDAD </p>
+	<p class="textos">
+
+		 Supone garantizar que la información solamente se modifica de forma adecuada. Es decir, que solamente realizan modificaciones los usuarios autorizados y que las modificaciones mantienen la consistencia de la información. Por ejemplo, que solamente quien tenga la autorización pertinente puede modificar el saldo de una cuenta corriente; pero también que, si esta modificación es el resultado de una transferencia, el dinero se descuenta de la cuenta de origen y se añade en la de destino.
+
+	<p class="subtitulos"> DISPONIBILIDAD </p>
+	<p class="textos">
+
+		Requiere garantizar que los sistemas estarán disponibles (ofreciendo el servicio esperado) para los usuarios autorizados. Por eso, los ataques contra la disponibilidad de los sistemas se conocen como ataques de denegación de servicio, pues su objetivo es evitar que los usuarios autorizados puedan utilizarlo (por ejemplo, un ataque contra un buscador o cualquier otro servicio ofrecido a través de Internet).
+
+	<p class="subtitulos"> AUTENTICACION </p>
+	<p class="textos">
+
+		Consiste en poder confirmar la identidad de un sujeto. El ejemplo más habitual es la introducción de usuario y contraseña para comenzar a utilizar sistema o servicio web.
+
+	<p class="subtitulos"> NO REPUDIO O RESPONSABILIDAD (ACCOUNTABILITY)</p>
+	<p class="textos">
+
+		Supone poder confirmar que un sujeto ha realizado una acción. O, dicho de otra forma, que un sujeto no pueda refutar con éxito que la ha realizado.
+
+	<p class="subtitulos"> AUDITABILIDAD</p>
+	<p class="textos">
+
+		Requiere que sea posible trazar las acciones realizadas sobre un objeto. Eso supone que queden registradas todas las operaciones que se realicen.
+
+	<p class="subtitulos"> PRIVACIDAD</p>
+	<p class="textos">
+
+		Aunque está relacionada con la confidencialidad, consiste en poder decidir qué información se comparte y con quién, algo especialmente relevante a la hora de usar servicios de Internet.
+		
+	</p>
+
+</section>
+
+</section>
+
+
+
+
+
+		<footer class="DERECHOS">
+			<p>Seguridad Informatica, Copyright &#169; 2019</p>
+		</footer>
+
+</body>
+</html>
